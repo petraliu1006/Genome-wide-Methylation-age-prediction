@@ -11,7 +11,8 @@ DNA methylation beta values at approximately 450,000 CpG sites. These values ran
 Age of the individual, which is a continuous variable ranging from 19 to 101.
 ### Dimensions: 
 The dataset includes methylation profiles for a 656 individuals and 450,000 features (CpG sites), plus one target variable (age).
-### Dependencies: Python 3.11 was used to run the model with the following libraries: biolearn, pandas, numpy, sklearn, xgboost, matplotlib. A requirements.txt file in github should list all the necessary libraries, and they can be installed using pip install -r requirements.txt.
+### Dependencies: 
+Python 3.11 was used to run the model with the following libraries: biolearn, pandas, numpy, sklearn, xgboost, matplotlib. A requirements.txt file in github should list all the necessary libraries, and they can be installed using pip install -r requirements.txt.
 ### Running the Analysis: 
 To run the prediction model, use the command python xprize.ipynb uploaded in github. This script will load the dataset, preprocess the data, split it into training and testing sets, train the XGBoost model, and finally evaluate its performance using Mean Square Error (MSE).
 ## Decisions made along the way, including trade-offs 
