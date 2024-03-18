@@ -25,7 +25,8 @@ MSE (Mean Squared Error) was chosen as the primary evaluation metric to emphasiz
 Performance evaluation of the model, including MSE on the testing set.
 mse: 26.254908175681962
 A feature importance plot, highlighting the top CpG sites contributing to age prediction.
-  
+  <img width="275" alt="image" src="https://github.com/petraliu1006/Genome-wide-Methylation-age-prediction/assets/146908861/d4eaa876-d64b-4114-a4c7-c005ceca1b94">
+
 
 ## Citations 
 ### Data Source: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE40279
@@ -37,4 +38,4 @@ data.dnam
 ### Code and Libraries: 
 https://bio-learn.github.io/auto_examples/02_challenge_submissions/training_simple_model.html - sphx-glr-auto-examples-02-challenge-submissions-training-simple-model-py
 
-![image](https://github.com/petraliu1006/Genome-wide-Methylation-age-prediction/assets/146908861/74591716-89b7-4f6f-b483-8940d46d344e)
+
