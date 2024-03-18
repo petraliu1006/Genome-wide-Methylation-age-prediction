@@ -31,11 +31,11 @@ mse: 26.254908175681962
 
 ## Citations 
 ### Data Source: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE40279
-Or download the data using its package: 
-from biolearn.data_library import DataLibrary
-data = DataLibrary().get("GSE40279").load()
-data.metadata
-data.dnam
+Or download the data using its package by the following code: 
+from biolearn.data_library import DataLibrary;
+data = DataLibrary().get("GSE40279").load();
+data.metadata;
+data.dnam;
 ### Code and Libraries: 
 https://bio-learn.github.io/auto_examples/02_challenge_submissions/training_simple_model.html - sphx-glr-auto-examples-02-challenge-submissions-training-simple-model-py
 
