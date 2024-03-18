@@ -37,6 +37,7 @@ Or download the data using its package by the following code:
 ##### data.metadata
 ##### data.dnam
 ### Code and Libraries: 
-https://bio-learn.github.io/auto_examples/02_challenge_submissions/training_simple_model.html - sphx-glr-auto-examples-02-challenge-submissions-training-simple-model-py
+
+https://bio-learn.github.io/auto_examples/02_challenge_submissions/training_simple_model.html#sphx-glr-auto-examples-02-challenge-submissions-training-simple-model-py
 
 
