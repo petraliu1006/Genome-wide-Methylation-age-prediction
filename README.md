@@ -21,7 +21,7 @@ All CpG sites were used to trained the model which were split into train and tes
 Model Choice: The code was adopted from a biomarkers-of-aging-challenge analysis sample. The model of elastic net was initially used. But the MSE results showing the performance of the model is 652, which is too high and not prefect. We then opted for XGBoost due to its effectiveness in handling large, sparse datasets and its superior performance in similar prediction tasks. This choice was made considering the trade-off between model complexity and interpretability. After adjusting the parameters of the XGBoost model, including gamma, max_depth, lambda, subsample, colsample_bytree, min_child_weight, learning_rate, and alpha, the lowest MSE we got was 26. This is a much lower score and indicates that XGBoost is a much better model to predict age using the CpGs sites dataset. 
 ### Evaluation Metrics: 
 MSE (Mean Squared Error) was chosen as the primary evaluation metric to emphasize the accuracy of age predictions. However, this focus on MSE might overlook model performance aspects like bias and variance, which are also important. 
-## Example output (what does it do?)
+## Example output 
 Performance evaluation of the model, including MSE on the testing set.
 mse: 26.254908175681962
 A feature importance plot, highlighting the top CpG sites contributing to age prediction.
