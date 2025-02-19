@@ -23,7 +23,7 @@ Model Choice: The code was adopted from a biomarkers-of-aging-challenge analysis
 MSE (Mean Squared Error) was chosen as the primary evaluation metric to emphasize the accuracy of age predictions. However, this focus on MSE might overlook model performance aspects like bias and variance, which are also important. 
 ## Example output 
 ### Performance evaluation of the model, including MSE on the testing set.
-mse: 26.254908175681962
+mse: 9.254908175681962
 ### A feature importance plot, highlighting the top CpG sites contributing to age prediction.
   
   <img width="275" alt="image" src="https://github.com/petraliu1006/Genome-wide-Methylation-age-prediction/assets/146908861/d4eaa876-d64b-4114-a4c7-c005ceca1b94">
